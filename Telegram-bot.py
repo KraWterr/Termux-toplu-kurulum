@@ -14,7 +14,7 @@ def echo(update, context):
 
 def main():
     # Botunuzun tetikleyicisini oluşturun
-    updater = Updater(TOKEN, use_context=None)
+    updater = Updater(TOKEN, use_context=False)
     dispatcher = updater.dispatcher
 
     # /start ve /echo komutlarına uygun işleyicileri ekleyin
